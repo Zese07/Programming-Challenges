@@ -1,0 +1,1 @@
+Write a Python function called is_palindrome that takes a string as input and determines whether it is a palindrome or not. A palindrome is a word, phrase, number, or other sequence of characters that reads the same forward and backward, disregarding spaces, and letter casing.
