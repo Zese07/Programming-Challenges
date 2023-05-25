@@ -8,7 +8,12 @@ def fibonacci(n):
 
     return sequence
 
+while True:
+    try:
+        n = int(input("Value: "))
+        f = fibonacci(n)
+        print(f"Answer: {f[n - 1] + f[n - 2]}\nSequence: {f}")
+        break
+    except ValueError:
+        print("Not a valid value.")
 
-n = int(input("Value: "))
-f = fibonacci(n)
-print(f"Answer: {f[n - 1] + f[n - 2]}\nSequence: {f}")
